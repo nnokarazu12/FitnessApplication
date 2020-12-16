@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FitnessApplication</string>
+    <string name="app_title">ForeverWell</string>
+    <string name="app_description">Improve your health.</string>
+    <string name="app_description2">Improve your quality of life.</string>
+    <string name="username_label">Enter username</string>
+    <string name="password_label">Enter password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="weight_question">What is your weight?</string>
+    <string name="height_question">What is you height?</string>
+</resources>

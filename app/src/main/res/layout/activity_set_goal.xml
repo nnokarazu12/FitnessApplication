@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".SetGoalActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="25dp"
+        android:text="Weight Goal"
+        android:textColor="#ffffff"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How much do you want to lose?"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/goal"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="25dp"
+        android:background="#ffffff"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/set_goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#6A1B9A"
+        android:onClick="setGoal"
+        android:text="Confirm"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
